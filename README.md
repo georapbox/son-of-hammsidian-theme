@@ -1,4 +1,5 @@
-son-of-hammsidian-theme
-=======================
-
+Son of Hammsidian Theme for Brackets
+====================================
 A variation of John Hamm's Hammsidian dark theme.
+
+### HTML

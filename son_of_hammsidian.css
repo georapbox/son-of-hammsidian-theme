@@ -1,0 +1,107 @@
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    color: #bcbcbc;
+    background-color: #293134;
+}
+.CodeMirror-lines pre {
+    z-index: 3;
+}
+.CodeMirror-gutters {
+    background-color: #293134;
+}
+.CodeMirror-linenumber {
+    background-color: #293134;
+    color: #81969A;
+}
+.CodeMirror-matchingbracket {
+    color: #ef6500 !important;
+    border-bottom: 1px solid #ef6500 !important;
+	background-color: transparent;
+}
+.CodeMirror-linebackground,
+.CodeMirror-activeline {
+    background-color: #323c43;
+    outline: none;
+}
+.CodeMirror-activeline .CodeMirror-linenumber {
+	background-color: #323c43;
+}
+.cm-atom         { color: #EC7600; }
+.cm-qualifier    { color: #678CB1; }
+.cm-keyword      { color: #93C763; }
+.cm-comment      { color: #7D8C93; }
+.cm-string       { color: #EC7600; }
+.cm-string-2     { color: #EC7600; }
+.cm-variable     { color: #bcbcbc; }
+.cm-variable-2   { color: #bcbcbc; }
+.cm-variable-3   { color: #bcbcbc; }
+.cm-tag          { color: #93c763; }
+.cm-attribute    { color: #678CB1; }
+.cm-property     { color: #8c8cb4; }
+.cm-number       { color: #FF9E3D; }
+.cm-operator 	 { color: #678CB1; }
+.cm-def          { color: #bcbcbc; }
+.cm-meta         { color: #678CB1; }
+.cm-invalidchar,
+.cm-error {
+	outline: 1px solid #e66351;
+	background: #c14a3a;
+	color: #ddd;
+}
+.cm-link {
+	color: #4994eb;
+	text-decoration: underline;
+}
+
+.cm-matchhighlight:not(.CodeMirror-selectedtext) {
+    background-color: #616161;
+    color: #ffffff;
+}
+.CodeMirror-matchingtag {
+    background: rgba(125, 140, 147, 0.3);
+}
+.CodeMirror-gutters {
+  border-right: 1px solid #444444;
+}
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: #323c43;
+    color: #bcbcbc;
+}
+.CodeMirror-gutter-filler,
+.CodeMirror-scrollbar-filler {
+	background-color: rgba(12, 12, 12, 0.5);
+}
+.CodeMirror-foldmarker {
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #4d4d4d;
+    border: 1px solid #dddddd;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.CodeMirror-selectedtext,
+.CodeMirror-selected,
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: #804000;
+}
+.CodeMirror-cursors {
+	z-index: 5 !important;
+}
+.CodeMirror-cursors .CodeMirror-cursor {
+    border-left: 1px solid #ffffff !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+	background: none !important;
+	height: 14px;
+	width: 14px;
+}
+::-webkit-scrollbar-thumb {
+	box-shadow: 0 0 0 12px rgba(12, 12, 12, 0.5) inset !important;
+    border-radius: 0px;
+	width: 14px;
+}
